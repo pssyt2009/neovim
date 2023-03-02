@@ -20,3 +20,7 @@ cd neovim
 chmod +x arch.sh  
 ./arch.sh
 ```
+### Finally Run
+```
+nvim +PackerSync
+```
