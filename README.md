@@ -6,7 +6,6 @@ To get this config simply run the following shell script for your distribution
 ```
 git clone https://github.com/pssyt2009/neovim
 cd neovim
-chmod +x debain.sh
 ./debain.sh
 ```
 ### Finally Run
@@ -17,7 +16,6 @@ nvim +PackerSync
 ```
 git clone https://github.com/pssyt2009/neovim
 cd neovim
-chmod +x arch.sh  
 ./arch.sh
 ```
 ### Finally Run
