@@ -12,6 +12,10 @@ cd neovim
 ```
 nvim +PackerSync
 ```
+Ignore any errors and keep hitting the enter key. If Packer Screen does not come then run
+```
+:PackerSync
+```
 ## Arch Linux
 ```
 git clone https://github.com/pssyt2009/neovim
@@ -21,4 +25,8 @@ cd neovim
 ### Finally Run
 ```
 nvim +PackerSync
+```
+Ignore any errors and keep hitting the enter key. If Packer Screen does not come then run
+```
+:PackerSync
 ```
