@@ -6,7 +6,7 @@ To get this config simply run the following shell script for your distribution
 ```
 git clone https://github.com/pssyt2009/neovim
 cd neovim
-./debain.sh
+./debian.sh
 ```
 ### Finally Run
 ```
