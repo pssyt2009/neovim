@@ -1,4 +1,5 @@
 # My Neovim Configs
+![alt text](https://raw.githubusercontent.com/pssyt2009/neovim/main/2023-03-18_16-33.png)
 
 To get this config simply run the following shell script for your distribution
 
