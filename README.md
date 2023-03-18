@@ -4,6 +4,7 @@
 <img src="https://raw.githubusercontent.com/pssyt2009/neovim/main/2023-03-18_16-23.png"></img>
 
 To get this config simply run the following shell script for your distribution:
+## WARNING: Before continuing Please backup your existing neovim configs as the scripts will remove those.
 
 ## Ubuntu/Debain
 ```
