@@ -1,6 +1,7 @@
 <h1 align="center">Neovim Configs</h1>
-![alt text](https://raw.githubusercontent.com/pssyt2009/neovim/main/2023-03-18_16-33.png)
-![alt text](https://raw.githubusercontent.com/pssyt2009/neovim/main/2023-03-18_16-23.png)
+## Showcase
+<img src="https://raw.githubusercontent.com/pssyt2009/neovim/main/2023-03-18_16-33.png"></img>
+<img src="https://raw.githubusercontent.com/pssyt2009/neovim/main/2023-03-18_16-23.png"></img>
 
 To get this config simply run the following shell script for your distribution
 
