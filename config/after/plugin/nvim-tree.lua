@@ -3,7 +3,7 @@
 -- disable netrw at the very start of your init.lua (strongly advised)
 -- vim.g.loaded_netrw = 1
 -- vim.g.loaded_netrwPlugin = 1
-vim.keymap.set("n", "<leader>ff", vim.cmd.NvimTreeToggle)
+vim.keymap.set("n", "<leader>fe", vim.cmd.NvimTreeToggle)
 
 -- empty setup using defaults
 require("nvim-tree").setup()
