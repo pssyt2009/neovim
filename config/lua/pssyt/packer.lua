@@ -6,12 +6,15 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
-    use 'navarasu/onedark.nvim'
     use {
-
         'nvim-telescope/telescope.nvim', tag = '0.1.1',
         requires = { {'nvim-lua/plenary.nvim'} }
     }
+    use("nvim-treesitter/nvim-treesitter")
+    use("nvim-treesitter/playground")
+    use("theprimeagen/harpoon")
+    use("mbbill/undotree")
+    use("tpope/vim-fugitive")
     use {
         'VonHeikemen/lsp-zero.nvim',
         branch = 'v1.x',
@@ -34,29 +37,10 @@ return require('packer').startup(function(use)
             {'rafamadriz/friendly-snippets'}, -- Optional
         }
     }
-
-    use({"nvim-treesitter/nvim-treesitter", })
-    use("nvim-treesitter/playground")
-    use("theprimeagen/harpoon")
-    use("mbbill/undotree")
-    use("tpope/vim-fugitive")
-    use {
-        'nvim-tree/nvim-tree.lua',
-        requires = {
-            'nvim-tree/nvim-web-devicons', -- optional
-        },
-    }
+    use({ 'rose-pine/neovim', as = 'rose-pine' })
+    vim.cmd('colorscheme rose-pine')
     use {
         'nvim-lualine/lualine.nvim',
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
-    use {
-        'goolord/alpha-nvim',
-        requires = { 'nvim-tree/nvim-web-devicons' },
-        config = function ()
-            require'alpha'.setup(require'alpha.themes.startify'.config)
-        end
-    }
-    use 'lewis6991/impatient.nvim'
 end)
-
