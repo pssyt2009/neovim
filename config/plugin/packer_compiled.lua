@@ -170,6 +170,11 @@ _G.packer_plugins = {
     path = "/home/pssyt/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["presence.nvim"] = {
+    loaded = true,
+    path = "/home/pssyt/.local/share/nvim/site/pack/packer/start/presence.nvim",
+    url = "https://github.com/andweeb/presence.nvim"
+  },
   ["rose-pine"] = {
     loaded = true,
     path = "/home/pssyt/.local/share/nvim/site/pack/packer/start/rose-pine",
@@ -184,6 +189,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/pssyt/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-be-good"] = {
+    loaded = true,
+    path = "/home/pssyt/.local/share/nvim/site/pack/packer/start/vim-be-good",
+    url = "https://github.com/ThePrimeagen/vim-be-good"
   },
   ["vim-fugitive"] = {
     loaded = true,
